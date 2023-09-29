@@ -1,0 +1,44 @@
+// Import variables to override Boostrap's CSS
+@import "./variable.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+header {
+  min-height: 100vh;
+}
+
+a, h1, p, h6{
+  font-family: 'Inter', sans-serif;
+}
+
+.light-bg {
+  background-color: #EBE5FC;
+}
+
+a {
+  opacity: 0.9;
+  transition: .3s ease-in-out;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .brandingWrapper {
+    height: 100vh
+  }
+
+  html h2 {
+    font-size: 36px
+  }
+}
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";

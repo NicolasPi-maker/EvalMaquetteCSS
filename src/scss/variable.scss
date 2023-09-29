@@ -1,0 +1,26 @@
+$primary: #7749f8;
+$info: #5227CC;
+$success: #28A745;
+
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing:0 20px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+html h1, h3 {
+  font-size: 36px;
+}
+
+html h2 {
+  font-size: 48px;
+}
